@@ -1,0 +1,64 @@
+# lala
+
+Backend API for lala
+
+## Tech Stack
+
+- **Frontend**: React
+- **Backend**: FastAPI + SQLAlchemy
+- **Frontend Source**: GitHub ([Repository](https://github.com/HimaShankarReddyEguturi/Designecommerceproductui.git))
+
+## Project Structure
+
+```
+lala/
+├── frontend/          # Frontend application
+├── backend/           # Backend API
+├── README.md          # This file
+└── docker-compose.yml # Docker configuration (if applicable)
+```
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 18+ (for frontend)
+- Python 3.11+ (for Python backends)
+- Docker (optional, for containerized setup)
+
+### Frontend Setup
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+### Backend Setup
+
+```bash
+cd backend
+# Follow backend-specific setup instructions in backend/README.md
+```
+
+## Features
+
+- user registration
+- user login
+- data CRUD operations
+- data search
+
+## API Endpoints
+
+- `POST /api/register` - Register a new user
+- `POST /api/login` - Log in an existing user
+- `GET /api/data` - Retrieve a list of data
+- `POST /api/data` - Create a new data item
+- `GET /api/data/{id}` - Retrieve a single data item
+- `PUT /api/data/{id}` - Update a data item
+- `DELETE /api/data/{id}` - Delete a data item
+- `GET /api/search` - Search for data
+
+## License
+
+MIT
